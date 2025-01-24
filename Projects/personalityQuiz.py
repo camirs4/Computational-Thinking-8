@@ -42,6 +42,13 @@ if answer == "b":
 elif answer == "B":
     dog_points += 1
 
+    os. system('clear')
+answer = input("would you rather wear A) dark colors or B) bright colors \n")
+if answer == "A":
+    cat_points += 1
+elif answer == "B":
+    dog_points += 1
+
 os. system('clear')
 if cat_points > dog_points:
         print("You are a cat person")
